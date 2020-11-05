@@ -1,1 +1,17 @@
-<h2>You have selected {{ departmentId }}</h2>
+<div>
+    <h2>You have selected {{ departmentId }}</h2>
+</div>
+
+<div>
+    <ul>
+        <li (click)="goPrevious()">Previous</li>
+        <a href="#"></a>
+
+        <li (click)="goNext()">Next</li>
+        <a href="#"></a>    
+    </ul>
+</div>
+
+<div>
+    <button (click)="goToDepartments()">Back</button>
+</div>

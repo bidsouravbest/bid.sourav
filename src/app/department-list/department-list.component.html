@@ -1,7 +1,7 @@
 <!-- <nav> -->
     <div>
         <ul style="list-style-type:none;">
-            <li (click)="onSelect(department)" *ngFor="let department of departments">
+            <li (click)="onSelect(department)" [class.selected]="isSelected(department)" *ngFor="let department of departments" style="padding: 10px;">
                 <!-- <span>{{ department.id }}</span> 
                 <span>{{ department.name }}</span> -->
                 {{ department.id }} -> {{ department.name }}

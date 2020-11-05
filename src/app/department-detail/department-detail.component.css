@@ -1,0 +1,15 @@
+h2{
+    color: teal;
+    padding: 7px;
+    width: 200px;
+
+}
+
+li:hover {
+    cursor: pointer;
+}
+
+ul,li{
+    list-style-type:none;
+    color: blueviolet;
+}

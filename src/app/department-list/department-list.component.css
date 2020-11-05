@@ -1,0 +1,15 @@
+li:hover {
+    cursor: pointer;
+}
+
+div{
+    width: 250px;
+    padding: 6px;
+    color: tomato;
+    border-color: yellow;
+}
+
+.selected{
+    background-color: chartreuse;
+    color: darkmagenta;
+}
