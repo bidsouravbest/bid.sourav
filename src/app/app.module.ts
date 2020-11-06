@@ -7,6 +7,8 @@ import { DepartmentListComponent } from './department-list/department-list.compo
 import { EmployeeListComponent } from './employee-list/employee-list.component';
 import { NoPageFoundComponent } from './no-page-found/no-page-found.component';
 import { DepartmentDetailComponent } from './department-detail/department-detail.component';
+import { DepartmentOverviewComponent } from './department-overview/department-overview.component';
+import { DepartmentContactComponent } from './department-contact/department-contact.component';
 
 
 @NgModule({
@@ -15,7 +17,9 @@ import { DepartmentDetailComponent } from './department-detail/department-detail
     DepartmentListComponent,
     EmployeeListComponent,
     NoPageFoundComponent,
-    DepartmentDetailComponent
+    DepartmentDetailComponent,
+    DepartmentOverviewComponent,
+    DepartmentContactComponent
   ],
   imports: [
     BrowserModule,

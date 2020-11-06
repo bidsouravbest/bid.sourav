@@ -2,16 +2,34 @@
     <h2>You have selected {{ departmentId }}</h2>
 </div>
 
+
+
 <div>
-    <ul>
+    <button (click)="showOverview()" style="margin-right: 16px">Overview</button>
+    <button (click)="showContact()">Contact</button>
+</div>
+
+<router-outlet></router-outlet>
+
+<br>
+
+<div>
+    <button (click)="goToDepartments()">Back</button>
+</div>
+
+<br>
+
+<div>
+    <!-- <ul>
         <li (click)="goPrevious()">Previous</li>
         <a href="#"></a>
 
         <li (click)="goNext()">Next</li>
         <a href="#"></a>    
-    </ul>
+    </ul>  -->
+
+    <button (click)="goPrevious()">Previous</button>
+    <button (click)="goNext()">Next</button>
+
 </div>
 
-<div>
-    <button (click)="goToDepartments()">Back</button>
-</div>

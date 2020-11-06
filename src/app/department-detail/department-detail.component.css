@@ -5,11 +5,12 @@ h2{
 
 }
 
-li:hover {
-    cursor: pointer;
-}
+
 
 ul,li{
     list-style-type:none;
     color: blueviolet;
 }
+
+
+
